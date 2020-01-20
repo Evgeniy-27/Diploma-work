@@ -46,7 +46,10 @@ h2 {
 }
 
 .app_store {
-  
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ padding-left: 35%;
   width: 88%;
   height: 35px;
   border-radius: 15px;
@@ -54,13 +57,13 @@ h2 {
   font-family: Regular;
   font-size: 8px;
   text-transform: uppercase;
-  line-height: 0.5;
+ 
   color: #ffffff;
   background-color: #5e42b0;
   background-image: url("svg/apple_logo_black.svg");
   background-size : 25px;
   background-repeat: no-repeat;
-  background-position: 28% center;
+  background-position: 30% center;
 }
 
 .header {

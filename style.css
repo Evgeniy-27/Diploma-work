@@ -63,8 +63,8 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 35%;
-  width: 88%;
+  padding-left: 118px;
+  width: 280px;
   height: 35px;
   border-radius: 15px;
   border: none;

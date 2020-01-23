@@ -58,6 +58,7 @@ h2 {
 }
 .buttons {
   margin-top: 80px;
+  margin-left: 20px;
 }
 button {
   display: flex;
@@ -118,25 +119,25 @@ a {
   font-size: 50px;
   color: #e7e7e7;
   text-transform: uppercase;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 .athlets_img {
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: 5px;
 }
 .connection,
 .collaboration,
 .growth {
   display: flex;
-  margin-top: 10px;
-  margin-left: 20px;
+  flex-wrap: wrap;
+   padding-left: 20px;
 }
 .title {
   font-family: Bold;
   font-size: 23px;
   color: #c1c1c1;
   text-transform: uppercase;
-  margin-left: 10px;  
+  margin-left: 10px;
 }
 .number {
   font-size: 14px;
@@ -152,12 +153,30 @@ a {
   bottom: 0;
   left: 0;
   width: 15px;
-  height: 5px;
+  height: 4px;
   background-color: #5e42b0;
   right: 0;
   margin: 0 auto;
   border-radius: 25%;
   display: block;
+}
+
+.content {
+  font-family: Regular;
+  font-size: 15px;
+  color: #000000;
+  margin-top: 20px;
+}
+.connection {
+  background-color: #fafafa;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin-top: -60px;
+}
+.collaboration {
+  background-color: #f5f4f9;
+  padding-top: 55px;
+  padding-bottom: 50px;
 }
 
 @media (min-width: 1301px) {

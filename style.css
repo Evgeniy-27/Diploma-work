@@ -19,7 +19,8 @@ body {
   padding: 0;
   margin: 0;
   font-size: 16px;
-}
+  font-family: Regular;
+  }
 .header_logo {
   width: 43%;
   display: block;
@@ -112,7 +113,6 @@ a {
   bottom: 0;
   opacity: 0.8;
 }
-
 .athlets_title,
 .be-activ_title {
   font-family: Bold;
@@ -130,7 +130,7 @@ a {
 .growth {
   display: flex;
   flex-wrap: wrap;
-   padding-left: 20px;
+  padding-left: 20px;
 }
 .title {
   font-family: Bold;
@@ -166,6 +166,8 @@ a {
   font-size: 15px;
   color: #000000;
   margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .connection {
   background-color: #fafafa;
@@ -179,20 +181,92 @@ a {
   padding-bottom: 50px;
 }
 
-@media (min-width: 1301px) {
-  .header {
-    font-size: 16px;
-  }
+.number_three {
+  font-size: 14px;
+  color: #000000;
+  font-family: Bold;
+  margin-top: 3px;
+  margin-bottom: 7px;
+  position: relative;
+}
+.number_three::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15px;
+  height: 4px;
+  background-color: #ffffff;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 25%;
+  display: block;
+}
+.content_growth {
+  font-family: Regular;
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.growth {
+  background-color: #5e42b0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
 }
 
-@media (min-width: 641px) and (max-width: 1300px) {
-  .header {
-    font-size: 12px;
-  }
+.players_img {
+  margin-left: 10%;
+  margin-top: 5px; 
+  margin-bottom: 30px;
+}
+.number_three_players {
+  font-size: 14px;
+  color: #8765dd;
+  font-family: Bold;
+  margin-top: 3px;
+  margin-bottom: 7px;
+  position: relative;
+}
+.number_three_players::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15px;
+  height: 4px;
+  background-color: #ffffff;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 25%;
+  display: block;
+}
+.growth_players {
+  background-color: #090c35;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
 }
 
-@media (max-width: 640px) {
-  .header {
-    font-size: 8px;
-  }
+.players_img {
+  margin: 0px 0px;
+  background-size: cover;
 }
+.be_activ_content {
+  font-family: Regular;
+  font-size: 16px;
+  color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+ .title_step {
+  font-family: Bold;
+  font-size: 28px;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  padding-left: 20px;
+ }

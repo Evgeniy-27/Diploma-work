@@ -356,7 +356,7 @@ a {
 }
 .footer {
   background-color: #2d5a9e;
-  background-image: url("/img/game_767.jpg");
+  background-image: url("../img/game_767.jpg");
   background-position: center center;
   background-size: cover;
   position: relative;

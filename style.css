@@ -31,7 +31,6 @@ body {
   display: block;
   color: #ffffff;
   padding: 30px 20px 85px 20px;
-  width: 100%;
   z-index: 1;
   position: relative;
 }
@@ -316,7 +315,6 @@ a {
   display: block;
   color: #ffffff;
   padding: 100px 20px 10px 20px;
-  width: 100%;
   z-index: 1;
   position: relative;
 }

@@ -346,6 +346,7 @@ a {
   display: block;
   font-family: Regular;
   font-size: 14px;
+  text-transform: uppercase;
 }
 .footer_logo_end {
   width: 43%;

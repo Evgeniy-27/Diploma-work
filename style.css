@@ -334,18 +334,17 @@ a {
   margin-right: auto;
   margin-top: 55px;
   text-align: center;
+  text-transform: uppercase;
 }
 .download_app {
   font-family: Bold;
   font-size: 32px;
   color: #ffffff;
-  text-transform: uppercase;
 }
 .farewell {
-  color: #a496ca;
   font-family: Regular;
   font-size: 14px;
-  text-transform: uppercase;
+  color: #a496ca;
 }
 .footer_logo_end {
   width: 43%;

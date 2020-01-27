@@ -124,7 +124,9 @@ a {
   padding-left: 20px;
 }
 .athlets_img {
-  margin-left: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 5px;
 }
 .connection,
@@ -220,7 +222,9 @@ a {
 }
 
 .players_img {
-  margin-left: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 5px;
   margin-bottom: 30px;
 }

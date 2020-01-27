@@ -77,6 +77,8 @@ button {
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: 30% center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .app_store_label,
